@@ -1,0 +1,21 @@
+{
+  "name": "blackbox-exporter-prometheus-alertmanager-nginx-httpd-grafana",
+  "version": "1.0.0",
+  "description": "A minimal Prometheus Server, Node Exporter, BlackBox Exporter and Grafana implementation with docker-compose.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "git add . && git commit -m Build && git push",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjanshair/docker-prometheus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kjanshair/docker-prometheus/issues"
+  },
+  "homepage": "https://github.com/kjanshair/docker-prometheus#readme"
+}
